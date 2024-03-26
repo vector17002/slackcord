@@ -16,7 +16,7 @@ const SocketContextProvider = ({children} : {children : any}) => {
   
   useEffect(() => {
     if (user) {
-      const socket = io("http://localhost:3000", {
+      const socket = io("https://slackcord.onrender.com/", {
         query: {
           userId: user._id
         }
