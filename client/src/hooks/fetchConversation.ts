@@ -8,16 +8,17 @@ useEffect(()=>{
     const getConversation =  async () =>{
         try {
             setLoading(true)
-            const res = await fetch("http://localhost:3000/api/users/" , {
+            const res = await fetch("/api/users/" , {
                 credentials: 'include'
             })
             
             const data = await res.json()
             if(data.error)
             toast.error("Error loading conversations")
-    
+
             setConversations(data)
         } catch (error) {
+            console.log(error)
             toast.error("Error at obtaining conversations")
         }finally{
             setLoading(false)

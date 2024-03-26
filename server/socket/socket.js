@@ -5,11 +5,12 @@ import express from "express";
 const app = express()
 
 const userSocketMap = {} //{userId : socketId}
+
 const server = http.createServer(app)
 const io = new Server(server, {
     cors:{
-        origin: ["https://slackcord.vercel.app/" , "https://slackcord-vector17002.vercel.app/" , "http://localhost:5173"],
-        methods: ["GET","POST"]
+        origin: ["http://localhost:3000"],
+        methods: ["GET","POST"],
     }
 })
 
