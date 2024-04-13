@@ -1,8 +1,8 @@
-<h1>Chat Application</h1>
+<h1>Chat Application🚀</h1>
 
 This is a real-time chat application built using React, Tailwind CSS, Node.js, Express.js, MongoDB, JWT (JSON Web Tokens), and Socket.IO.
 
-<h2> Features </h2>
+<h2> Features💪 </h2>
 
 - Real-time messaging: Allows users to send and receive messages instantly.
 - User authentication: Users can sign up, log in, and authenticate using JSON Web Tokens (JWT).
@@ -10,7 +10,7 @@ This is a real-time chat application built using React, Tailwind CSS, Node.js, E
 - Secure communication: Communication between the client and server is encrypted using HTTPS, and JWT is used for secure authentication.
 - WebSockets: Implemented using Socket.IO, enabling real-time bidirectional communication between clients and the server.
 
-<h2> Technologies used </h2>
+<h2> Technologies used💻 </h2>
 
  <h3> Frontend: </h3>
   - React: A JavaScript library for building user interfaces. </br>
@@ -37,5 +37,5 @@ To run the application locally, follow these steps:
    cd ../server
    npm install
 
-  <h2>Working demo</h2>
+  <h2>Working demo🎦</h2>
   <video src="https://github.com/vector17002/slackcord/assets/104789216/99c77f28-466e-479f-b125-fef96b881281"></video>
