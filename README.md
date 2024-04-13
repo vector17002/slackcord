@@ -7,7 +7,6 @@ This is a real-time chat application built using React, Tailwind CSS, Node.js, E
 - Real-time messaging: Allows users to send and receive messages instantly.
 - User authentication: Users can sign up, log in, and authenticate using JSON Web Tokens (JWT).
 - Persistent data storage: Messages are stored in a MongoDB database, ensuring data persistence.
-- Responsive design: Built with Tailwind CSS, the application is fully responsive and optimized for various devices.
 - Secure communication: Communication between the client and server is encrypted using HTTPS, and JWT is used for secure authentication.
 - WebSockets: Implemented using Socket.IO, enabling real-time bidirectional communication between clients and the server.
 
