@@ -13,15 +13,15 @@ This is a real-time chat application built using React, Tailwind CSS, Node.js, E
 <h2> Technologies used </h2>
 
  <h3> Frontend: </h3>
-  - React: A JavaScript library for building user interfaces.
-  - Tailwind CSS: A utility-first CSS framework for building responsive designs.
-  - Socket.IO Client: A JavaScript library for real-time web applications, used for client-side WebSocket communication.
+  - React: A JavaScript library for building user interfaces. </br>
+  - Tailwind CSS: A utility-first CSS framework for building responsive designs. </br>
+  - Socket.IO Client: A JavaScript library for real-time web applications, used for client-side WebSocket communication. </br>
 
  <h3> Backend: </h3>
-  - Node.js: A JavaScript runtime environment for building server-side applications.
-  - Express.js: A web application framework for Node.js, used for building the server-side application.
-  - MongoDB: A NoSQL database used for storing chat messages and user data.
-  - JSON Web Tokens (JWT): Used for user authentication and authorization.
+  - Node.js: A JavaScript runtime environment for building server-side applications. </br>
+  - Express.js: A web application framework for Node.js, used for building the server-side application. </br>
+  - MongoDB: A NoSQL database used for storing chat messages and user data. </br>
+  - JSON Web Tokens (JWT): Used for user authentication and authorization. </br>
   - Socket.IO: A JavaScript library for real-time bidirectional communication, used for server-side WebSocket communication.
 
  <h3> Installation </h3>
