@@ -36,3 +36,6 @@ To run the application locally, follow these steps:
    npm install
    cd ../server
    npm install
+
+  <h2>Working demo</h2>
+  <video src="https://github.com/vector17002/slackcord/assets/104789216/99c77f28-466e-479f-b125-fef96b881281"></video>
