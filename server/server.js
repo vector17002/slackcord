@@ -7,6 +7,7 @@ import messageRoute from "./routes/messageRoute.js";
 import userRoute from "./routes/userRoute.js";
 import cookies from "cookie-parser"
 import { app , server} from "./socket/socket.js"
+import { CronJob } from 'cron'
 
 
 dotenv.config();
@@ -21,6 +22,9 @@ app.use(cookies()); //HELPS ACCESING COOKIES TO GET CURRENT USER INFO
 //   origin:["http://localhost:3000"],
 //   credentials:true
 // }))
+
+const stopRenderSpinDown = new CronJob('* * * * *' , () => {} , null , true , 'UTC' )
+stopRenderSpinDown.start()
 
 //AUTH ROUTE
 app.use("/api/auth", authRoute);
