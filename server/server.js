@@ -23,7 +23,11 @@ app.use(cookies()); //HELPS ACCESING COOKIES TO GET CURRENT USER INFO
 //   credentials:true
 // }))
 
-const stopRenderSpinDown = new CronJob('* * * * *' , () => {} , null , true , 'UTC' )
+const temp = () => {
+  //console.log('temp');
+}
+
+const stopRenderSpinDown = new CronJob('* * * * *' , temp , null , true , 'UTC' )
 stopRenderSpinDown.start()
 
 //AUTH ROUTE
